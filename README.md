@@ -9,3 +9,12 @@
   3. Selenium
   
   4. Beautiulsoup
+    - First Use pipe to install Beautifulsoup
+    - Secondly import package to get html or get source from web using request module.
+    
+    package import\
+    <code>from bs4 import BeautifulSoup</code>
+    
+    Open html\
+    <code>with open("example.html") as jn:
+    soup = BeautifulSoup(jn, 'html.parser')</code>
